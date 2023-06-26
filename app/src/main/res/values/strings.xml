@@ -4,4 +4,6 @@
     <string name="feature_1">Feature #1</string>
     <string name="request_record_audio_and_access_fine_location_permissions">Request RECORD_AUDIO and ACCESS_FINE_LOCATION permissions:</string>
     <string name="feature_2">Feature #2</string>
+    <string name="feature_3">FEATURE #3</string>
+    <string name="request_permission_with_activity_result_api">Request permission with Activity result API</string>
 </resources>
