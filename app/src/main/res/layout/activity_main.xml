@@ -48,6 +48,28 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/requestCameraAndRecordAudioPermission"
+        app:layout_constraintBottom_toTopOf="@+id/ActivityResultAPI"/>
+
+    <TextView
+        android:id="@+id/ActivityResultAPI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/request_permission_with_activity_result_api"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/feature2Button"
+        app:layout_constraintBottom_toTopOf="@+id/feature3Button"/>
+
+    <Button
+        android:id="@+id/feature3Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/feature_3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ActivityResultAPI"
         app:layout_constraintBottom_toBottomOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
